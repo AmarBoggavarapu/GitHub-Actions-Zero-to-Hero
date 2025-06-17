@@ -4,7 +4,11 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    ## Below is example for GitHub Hosted Runner
+    #runs-on: ubuntu-latest
+    
+    ## Below is example for Self Hosted Runner
+    runs-on: self-hosted
 
     strategy:
       matrix:
